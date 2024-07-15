@@ -56,6 +56,7 @@ nav {
 .nav_links a:hover {
   background: #555;
 }
+
 /* Header Styles */
 .header__container {
   height: 30px;
@@ -104,6 +105,7 @@ nav {
   z-index: 1;
   text-transform: uppercase;
 }
+
 /* Contact Section Styles */
 .contact {
   padding: 2em;
@@ -111,34 +113,46 @@ nav {
   margin: 1em;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-left: 250px;
+  margin-right: 250px;
 }
 
 .contact h3 {
   margin-bottom: 1em;
+  font-weight: 800;
+  font-size: xx-large;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .contact form fieldset {
   border: none;
-  padding: 0;
+  padding: 20;
 }
 
 .contact form p {
-  margin-bottom: 1em;
+  max-width: 70rem;
+		margin: 1rem auto;
+		text-align: center;
+		margin-bottom: 3rem;
 }
 
 .contact form label {
-  display: block;
+  display: flex;
   margin-bottom: 0.5em;
   font-weight: bold;
+  width: 45%;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .contact form input[type="text"],
 .contact form textarea {
   width: 100%;
-  padding: 0.5em;
+  padding: 1.5em;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  resize: none;
 }
 
 .contact form input[type="text"]:focus,
@@ -160,10 +174,15 @@ nav {
 .contact form button.btn:hover {
   background: #555;
 }
+.contact form fieldset .message {
+padding-top: 10px;
+  font-size: larger;
+
+}
 
 /* Footer Styles */
 footer {
-  background: #8DB600;
+  background: hsl(74, 100%, 36%);
   color: rgb(0, 0, 0);
   padding: 1em 0;
   text-align: center;
