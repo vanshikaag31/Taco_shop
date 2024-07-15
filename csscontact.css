@@ -1,3 +1,61 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1, h3, h2 {
+  text-align: center;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #555;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Navigation Styles */
+nav {
+  background: #333;
+  color: #fff;
+  padding: 0.5em 0;
+}
+
+.nav__header {
+  display: flex;
+  justify-content: center;
+}
+
+.nav_links {
+  display: flex;
+  gap: 1em;
+}
+
+.nav_links li {
+  margin: 0;
+}
+
+.nav_links a {
+  color: #fff;
+  padding: 0.5em;
+  border-radius: 4px;
+}
+
+.nav_links a:hover {
+  background: #555;
+}
 /* Header Styles */
 .header__container {
   height: 30px;
