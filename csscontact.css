@@ -1,0 +1,30 @@
+/* Footer Styles */
+footer {
+  background: #8DB600;
+  color: rgb(0, 0, 0);
+  padding: 1em 0;
+  text-align: center;
+}
+
+footer address,
+footer a {S
+  color: rgb(0, 0, 0);
+  display: block;
+  margin: 0.5em 0;
+}
+
+.footer_bar {
+  text-align: center;
+  padding: 1em 0;
+  background: cornsilk ;
+}
+
+.footer_bar p, .footer_bar a {
+  margin: 0;
+  color: rgb(0, 0, 0);
+}
+
+
+.footer_bar a:hover {
+  color: red;
+}
